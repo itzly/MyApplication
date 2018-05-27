@@ -19,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
         String hh = "哈哈";
 
         feature1();
+        feature2();
+    }
+
+    private void feature2() {
+        tv_main_text.setText("feature-2功能");
     }
 
     private void feature1() {
