@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void feature2() {
         tv_main_text.setText("feature-2功能");
+        tv_main_text.setText("feature-2功能1");
+
     }
 
     private void feature1() {
