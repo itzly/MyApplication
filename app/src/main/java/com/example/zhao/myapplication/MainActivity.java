@@ -2,17 +2,27 @@ package com.example.zhao.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private TextView tv_main_text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        tv_main_text = (TextView) findViewById(R.id.tv_main_text);
 //        test1();
         second();
         String hh = "哈哈";
+
+        feature1();
+    }
+
+    private void feature1() {
+        tv_main_text.setText("feature-1功能");
     }
 
     private void second() {
