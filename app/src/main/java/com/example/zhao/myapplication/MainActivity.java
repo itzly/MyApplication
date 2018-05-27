@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         String hh = "哈哈";
 
         feature1();
-        feature2();
     }
 
     private void feature3() {
